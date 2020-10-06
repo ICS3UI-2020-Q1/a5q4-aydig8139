@@ -30,10 +30,12 @@ public class Main {
 
     int years = input.nextInt();
     
+    //create for loop and declare a variable to keep count of the years to multiply the interest
     for(int count = 1; count <= years; count++){
       balance = balance + (balance*interestRate);
       
     }
+    
     System.out.println(balance);
     }
   }
